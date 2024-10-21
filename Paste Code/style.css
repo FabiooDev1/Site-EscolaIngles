@@ -90,6 +90,7 @@ nav a, i {
     background: var(--colorWhite);
     border: none;
     color: var(--colorWhite);
+    cursor: pointer;
 }
 
 .banner-conteudo .bb1 {
