@@ -85,12 +85,14 @@ nav a, i {
 
 .btn-banner {
     width: 250px;
-    padding: 20px;
+    padding: 15px;
+    margin-right: 10px;
     font-size: 16px;
     background: var(--colorWhite);
     border: none;
     color: var(--colorWhite);
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .banner-conteudo .bb1 {
@@ -102,3 +104,49 @@ nav a, i {
     background-color: transparent;
     border: 1px solid var(--colorWhite);
 }
+
+
+/*Section Idiomas*/
+.section-idiomas {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+} 
+.box-idiomas {
+    width: 1200px;
+
+ }
+
+ .titulos-idiomas {
+     text-align: center;
+     padding: 0 100px;
+    }
+    
+.titulos-idiomas h1 {
+     color: var(--primaryColor);
+     font-size: 35px;
+}
+
+.titulos-idiomas p {
+    color: var(--secondColor);
+    font-size: 15px;
+}
+ .group-idiomas {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .card {
+    width: 32%; /* Ajuste conforme necessário */
+    height: 350px; /* Ajuste conforme necessário */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+ 
