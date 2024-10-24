@@ -119,7 +119,7 @@ nav a, i {
 
  .titulos-idiomas {
      text-align: center;
-     padding: 0 100px;
+     padding: 0 200px;
     }
     
 .titulos-idiomas h1 {
@@ -141,12 +141,32 @@ nav a, i {
  .card {
     width: 32%; /* Ajuste conforme necessário */
     height: 350px; /* Ajuste conforme necessário */
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 20px;
     text-align: center;
-    padding: 10px 5px;
+    padding: 40px;
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
+.card h1 {
+    font-size: 20px;
+    color: var(--primaryColor);
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--secondColor);
+}
+
+.line {
+    width: 35px;
+    margin-bottom: 5px;
+    border: 2px solid var(--primaryColor);
+    border-radius: 20px;
+}
  
