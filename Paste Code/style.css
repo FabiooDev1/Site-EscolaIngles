@@ -169,4 +169,69 @@ nav a, i {
     border: 2px solid var(--primaryColor);
     border-radius: 20px;
 }
- 
+
+
+.card:hover {
+    background-color: #3a55cd;
+    color: var(--colorWhite);
+}
+
+.card:hover h1,
+.card:hover p{
+    color: #fff;
+}
+
+.line:hover {
+    border: 2px solid var(--colorWhite);
+}
+
+.section-btn-idiomas {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-idiomas {
+    width: 180px;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+
+.section-btn-idiomas .bb1-id:hover {
+    background-color: #233896;
+}
+
+.section-btn-idiomas .bb1-id {
+    background-color: #1f3cbe;
+}
+
+.section-btn-idiomas .bb2-id:hover {
+    background-color: #233896;
+    color: var(--colorWhite);
+    border: 2px solid #233896;
+}
+
+.section-btn-idiomas .bb2-id {
+    border:2px solid #3a55cd;
+    color: #3a55cd;
+}
+
+/* Section Info 2*/
+
+.section-info2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box-info2 {
+    width: 1200px;
+    display: flex;
+}
+
+.img-info2 {
+    width: 800px;
+}
