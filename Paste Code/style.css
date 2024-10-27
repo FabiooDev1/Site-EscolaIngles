@@ -11,6 +11,8 @@
     --secondColor: #344F66;
     --buttonGreen: #0DC040;
     --colorWhite: #FFF;
+    --colorPBlue: #3a55cd;
+    --colorSBlue: #233896;
 }
 
 body {
@@ -225,13 +227,58 @@ nav a, i {
 .section-info2 {
     display: flex;
     justify-content: center;
+    background-color: #eff7fa70;
 }
 
 .box-info2 {
     width: 1200px;
     display: flex;
+    padding: 50px 0;
 }
 
 .img-info2 {
-    width: 800px;
+    width: 600px;
+}
+
+.conteudo-info2 {
+    width: 600px;
+    margin-left: 60px;
+}
+.img-info2 img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.conteudo-info2 h3 {
+    color: #3a55cd;
+}
+
+.conteudo-info2 h1 {
+    font-size: 30px;
+}
+
+.descricao-info2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #ecf1f3;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.descricao-info2:hover {
+    background-color: var(--colorWhite);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.descricao-info2 i {
+    background-color: #3a55cd;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: var(--colorWhite);
+}
+
+.descricao-card-info2 h1 {
+    font-size: 20px;
 }
