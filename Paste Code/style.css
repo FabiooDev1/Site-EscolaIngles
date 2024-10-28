@@ -112,7 +112,7 @@ nav a, i {
 .section-idiomas {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    padding: 50px 0;
 } 
 .box-idiomas {
     width: 1200px;
@@ -281,4 +281,35 @@ nav a, i {
 
 .descricao-card-info2 h1 {
     font-size: 20px;
+}
+
+/*Section Contato 1*/
+
+.section-contato1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.box-contato1 {
+    width: 1200px;
+    background-color: var(--colorPBlue);
+    color: var(--colorWhite);
+    padding: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.box-contato1 button {
+    background-color: var(--colorWhite);
+    border: none;
+    color: var(--colorPBlue);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px 35px;
+
 }
