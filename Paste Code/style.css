@@ -384,10 +384,49 @@ nav a, i {
 .box-footer {
     width: 1200px;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
 }
 .footer-menu1 {
     display: flex;
     flex-direction: column;
+}
+
+.footer-atendimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.icon-atendimento i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.footer-menu1 h3 {
+    padding-bottom: 10px;
+}
+
+.footer-menu1 a {
+    text-decoration: none;
+    color: #6e6464;
+    padding-bottom: 5px;
+}
+
+.footer-redes i {
+    padding: 10px;
+    color: var(--colorWhite);
+    border-radius: 20px;
+    background-color: #192A3D;
+}
+
+.creditos {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.creditos h3 {
+    font-size: 15px;
+    font-weight: 300;
 }
